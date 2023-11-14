@@ -85,9 +85,23 @@ article h2{
   margin-top: 0;
 }
 
+article p{
+  margin: 10px 0 10px 0;
+}
+
 .link{
   background-color: #cdc7c3;
-  display: inline-block;
+  display: block;
   padding: 12px;
   border-radius: 6px;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.rodape{
+  color: #fff;
+  background-color: #6b6c68;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 2px;
 }
