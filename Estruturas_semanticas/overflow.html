@@ -11,6 +11,8 @@
             padding: 16px;
             width: 300px;
             margin-bottom: 16px;
+            height: 300px;
+            background-color: rgba(255, 0, 0, .5);
         }
 
         .item{
@@ -30,23 +32,35 @@
         .max-content .item{
             width: max-content;
         }
+
+        .overflow-hidden{
+            overflow: hidden;
+        }
+
+        .overflow-scroll{
+            overflow: scroll;
+        }
+
+        .overflow-auto{
+            overflow: auto;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container fit-content">
+    <div class="container fit-content overflow-auto">
         <div class="item">lorem</div>
         <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, consectetur.</div>
         <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eaque cupiditate ratione corporis voluptates modi minima nesciunt provident magni? Dolorum, eaque facilis consequatur autem, assumenda omnis aliquam voluptates eum esse perferendis optio quis. Eius ipsum perspiciatis vel quas veritatis, impedit autem labore, error cum, explicabo cupiditate? Impedit quasi repellat porro, officiis error eaque aut quia sequi? Iure, quibusdam. Sapiente esse laborum, quibusdam nemo quasi et? Quaerat harum nemo atque assumenda!</div>
     </div>
 
-    <div class="container min-content">
+    <div class="container min-content overflow-auto">
         <div class="item">lorem</div>
         <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, consectetur.</div>
         <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eaque cupiditate ratione corporis voluptates modi minima nesciunt provident magni? Dolorum, eaque facilis consequatur autem, assumenda omnis aliquam voluptates eum esse perferendis optio quis. Eius ipsum perspiciatis vel quas veritatis, impedit autem labore, error cum, explicabo cupiditate? Impedit quasi repellat porro, officiis error eaque aut quia sequi? Iure, quibusdam. Sapiente esse laborum, quibusdam nemo quasi et? Quaerat harum nemo atque assumenda!</div>
     </div>
 
-    <div class="container max-content">
+    <div class="container max-content overflow-scroll">
         <div class="item">lorem</div>
         <div class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, consectetur.</div>
         <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eaque cupiditate ratione corporis voluptates modi minima nesciunt provident magni? Dolorum, eaque facilis consequatur autem, assumenda omnis aliquam voluptates eum esse perferendis optio quis. Eius ipsum perspiciatis vel quas veritatis, impedit autem labore, error cum, explicabo cupiditate? Impedit quasi repellat porro, officiis error eaque aut quia sequi? Iure, quibusdam. Sapiente esse laborum, quibusdam nemo quasi et? Quaerat harum nemo atque assumenda!</div>
