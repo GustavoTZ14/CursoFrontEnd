@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc()</title>
+    <style>
+        :root{
+            --header-heigth: 15rem;
+            --main-color: rgba(255, 0, 0, 0.3);
+        }
+
+        html{
+            font-size: 62.5%;
+        }
+
+        header{
+            width: 100%;
+            background-color: var(--main-color);
+            height: var(--header-heigth);
+            font-size: 2rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        main{
+            --header-heigth: 2rem;
+            min-height: calc(100vh - var(--header-heigth) - 2rem);
+            background-color: #ccc;
+            font-size: 2rem;
+            margin-top: var(--header-heigth);
+        }
+
+        footer{
+            height: 10rem;
+            font-size: 2rem;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <main>main</main>
+    <footer>footer</footer>
+</body>
+</html>
